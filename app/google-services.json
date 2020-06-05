@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "624919069818",
+    "firebase_url": "https://beautycribv4.firebaseio.com",
+    "project_id": "beautycribv4",
+    "storage_bucket": "beautycribv4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624919069818:android:0b27b649805c6f344a27c3",
+        "android_client_info": {
+          "package_name": "com.v4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624919069818-2i3u0228aiuqim1rqkrdg76kevh8cido.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.v4",
+            "certificate_hash": "6c8f78334f21aa4a3b817f4ada5c7270f8de309d"
+          }
+        },
+        {
+          "client_id": "624919069818-23vojssfvqou4s0kj8nasgg71sq1lskg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEE4wZZI2CRnA_xUckgTvabtKFGEBC10k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624919069818-23vojssfvqou4s0kj8nasgg71sq1lskg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

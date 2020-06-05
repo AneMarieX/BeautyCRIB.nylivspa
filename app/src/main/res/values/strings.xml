@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">NyLivSpa</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 4 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="register_user">Become a Member</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="tlf">Tlf. Number</string>
+    <string name="add_an_offer">Add Deal</string>
+    <string name="name">Offer Name</string>
+    <string name="desc">Description</string>
+    <string name="date">Date</string>
+    <string name="price">Price</string>
+    <string name="location">Location</string>
+    <string name="update_offer">Update Deal</string>
+    <string name="mark_as_finished">Mark as finished</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="book_conf">Thank you for your booking</string>
+    <string name="deta">Details</string>
+    <string name="location_prompt">Choose a location</string>
+    <string-array name="location_arrays">
+        <item>Select Location</item>
+        <item>Amager</item>
+        <item>Glostrup</item>
+        <item>Frederiksberg</item>
+        <item>Nørreport</item>
+        <item>Østerport</item>
+        <item>Valby</item>
+    </string-array>
+    <string name="name_prompt">Choose a Deal </string>
+    <string-array name="name_arrays">
+        <item>Select Deal</item>
+        <item>Massage single Offer 30 min</item>
+        <item>Massage single Offer 45 min</item>
+        <item>Massage single Offer 60 min</item>
+        <item>Massage single Offer 75 min</item>
+        <item>Massage Couples Offer 30 min</item>
+        <item>Massage Couples Offer 45 min</item>
+        <item>Massage Couples Offer 60 min</item>
+        <item>Massage Couples Offer 75 min</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+    <string name="time_pick">Pick a time</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected">Time</string>
+    <string name="time_current">The Time is:</string>
+
+</resources>
