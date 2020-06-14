@@ -137,19 +137,19 @@ public class MainActivity extends Login implements OfferAdapter.FirebaseDataList
         builder.setTitle("Services we offer");
         View view = getLayoutInflater().inflate(R.layout.info, null);
         ViewInfo = view.findViewById( R.id.info);
-        ViewInfo.setText( "-Wellness/sport-\n" +
+        ViewInfo.setText( "-Wellness/sport-\n"+"\n"+
                 "Relaxing and stress relieving the upper layers of muscle tissue,\n" +
-                "good for blood circulation and detoxifying.\n"+
-                "-Hot stone massage-\n" +
+                "good for blood circulation and detoxifying.\n"+ "\n"+
+                "-Hot stone massage-\n" + "\n"+
                 " Imagine 45 degrees hot lava stones specially shaped to caress your\n" +
                 " body from head to toe in a relaxing and stress free way combined with\n" +
-                " nourishing and moisturizing properties of vegetable oils.\n" +
-                "-Coconut oil massage-\n" +
+                " nourishing and moisturizing properties of vegetable oils.\n"+ "\n"+
+                "-Coconut oil massage-\n" + "\n"+
                 "The benefits of coconut oil are even greater in the cold weather,\n"+
                 "combined with moisturising properties as well as amaizing hydratation,\n"+
                 "the coconut oil is one of the few natural oils that are as good for the \n"+
-                "body inside and outside.\n"+
-                "-Hot chocolate butter massage-\n"+
+                "body inside and outside.\n"+ "\n"+
+                "-Hot chocolate butter massage-\n"+ "\n"+
                 "If you would like to have smooth silky skin and want to\n"+
                 "treat yourself with a relaxing full body massage and facial,\n"+
                 "then you should try our new chocolate treat.45 minutes\n"+
@@ -432,7 +432,11 @@ public class MainActivity extends Login implements OfferAdapter.FirebaseDataList
         ViewOffer = view.findViewById(R.id.offer_offer);
 
         ViewOffer.setText(
-                "Thank you for booking the offer:"+"\n"+offer.getName()+"in "+offer.getLocation()+"  location"+"\n"+"on the "+offer.getDate()+" at "+offer.getTime()+"\n"+"The price is "+offer.getPrice()+"kr"+"."+"\n"+"Rebooking or Cancellation by sms at: 71597953. Enjoy your therapy!" );
+                "\n"+"\n"+"\n"+
+                "Thank you for booking the offer:"+"\n"+"\n"+offer.getName()+" in "+offer.getLocation()+
+                        "  location"+"\n"+"on the "+offer.getDate()+" at "+offer.getTime()+"\n"+"The price is "+offer.getPrice()+"kr"+"."+"\n"+"\n"+"\n"+
+                        "You can pay now or by cash at the amenity."+"\n"+"\n"+"\n"+"\n"+"\n"+
+                        "Rebooking or Cancellation by sms at: 71597953. Enjoy your therapy!" );
 
         builder.setView(view);
 
@@ -441,11 +445,8 @@ public class MainActivity extends Login implements OfferAdapter.FirebaseDataList
             builder.setPositiveButton("CONFIRM AND PAY", new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int id) {
-                    String url = "https://www.paypal.com/dk/signin";
-                    Intent i = new Intent(Intent.ACTION_VIEW);
-                    i.setData( Uri.parse(url));
-                    startActivity(i);
-                    deleteOffer( offer );
+                    startActivity(new Intent(MainActivity.this, PayPal.class));
+                    //deleteOffer( offer );
 
 
                 }
